@@ -78,7 +78,7 @@
     -e PANEL_ENTRANCE=entrance \
     -e PANEL_USERNAME=1panel \
     -e PANEL_PASSWORD=1panel_password \
-    ghcr.io/purainity/docker-1panel-v2:latest
+    ghcr.io/xindaowei0/docker-1panel-v2:latest
     ```
 
 3. **访问 1Panel**
