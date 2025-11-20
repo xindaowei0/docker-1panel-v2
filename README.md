@@ -78,7 +78,7 @@
     -e PANEL_ENTRANCE=entrance \
     -e PANEL_USERNAME=1panel \
     -e PANEL_PASSWORD=1panel_password \
-    ghcr.io/xindaowei0/docker-1panel-v2:latest
+    xindaowei/1panel:latest
     ```
 
 3. **访问 1Panel**
@@ -97,7 +97,7 @@
     services:
       1panel:
         # 如果使用 ghcr 上的最新版预构建镜像
-        image: ghcr.io/purainity/docker-1panel-v2:latest
+        image: xindaowei/1panel:latest
         # 如果使用当前目录的 Dockerfile 本地构建镜像，请取消注释下一行，并注释上一行
         # build: . 
         container_name: 1panel # 容器名称
